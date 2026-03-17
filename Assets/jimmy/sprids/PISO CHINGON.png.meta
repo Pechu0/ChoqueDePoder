@@ -1,0 +1,3044 @@
+fileFormatVersion: 2
+guid: 7b65873c3858cf44eb17c518df029880
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PISO CHINGON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6759584055f1d469bac751408db0ff
+      internalID: 597518523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcbd9a70cc30134a86b892d02134822
+      internalID: -1401022193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bebe3a44facfb43a49fd934aa92f73
+      internalID: 2029990888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce838a42a3ca8d149ab05a5032848d2d
+      internalID: -840998440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61963af7fe172c946b40bb658cc11d9b
+      internalID: -1094963001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44259e63411d364d97f1894ec683939
+      internalID: 1056322802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c779c1ee8ed36ab42955cc6bb89c69c9
+      internalID: -1588371067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f627ac9d0a0b09c4a97ffc64cdfb6d93
+      internalID: -697318203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56c31c72a5ccca42ac6226d105cc2a7
+      internalID: -844769275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574db73d3ee9d8943b1e91394afd02a3
+      internalID: -131742943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e950fc61df951e743b94a56bf1dcca69
+      internalID: 1805617923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fdbda5d5a35d241b8e102b61c7e1c5
+      internalID: -2136637751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200ef90f313d9284b98d3a75b763d722
+      internalID: 1843346925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beab8a606072564090dd557983d84b5
+      internalID: -255680183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964544521f880e44943256f227d3284
+      internalID: -31395482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c889506e0d49987459b6c37fe34ae596
+      internalID: 1779921291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68152022578ca34ab64e562bd60f133
+      internalID: -1611099097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f63b4bb57f1f143ae61229e3837e88
+      internalID: -153439693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4da1a43883bf949b89e61834cbef3c
+      internalID: -1887975441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ec511bd132bd14f85066f23533f244
+      internalID: 210150756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccad2014d6e34745b4db56b466b0486
+      internalID: 2116171713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_21
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c2d6702624c4040a2a2fb45292ef1f
+      internalID: -170120598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5b7d537705f84e92e52daabc08014
+      internalID: 1073902192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccc3b7aa4c4c5c49a5294477a098d99
+      internalID: -1317192732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_24
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4aef4fff660d2498c5ce296643022c
+      internalID: 771709737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_25
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f749ffbf8834145b3623263fc452d1
+      internalID: 297957771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_26
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7ead4b6767eb44098cc00529c4d404
+      internalID: 338797154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_27
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da39301f6050d4443a3e4a9a88d24ca0
+      internalID: -1924608728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1800b25b1e15e0743aff744d5e4a7461
+      internalID: -2115741514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_29
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7bdc79a28d6d540ac15aa1847b7273
+      internalID: -1672302492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5133cd6e42374b9bb7ca9b89fc080
+      internalID: -953520333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d0b8e9c1fc1544fbd16fa96d22eb66
+      internalID: -1760809132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 108
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b656230ded42354a95bdef75f304200
+      internalID: 1242282262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b193c2795d163a4da45bc24d7687019
+      internalID: 1098645469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68c3db042f08e844b6a2b4187019568
+      internalID: 1402263751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34627a6d0d971e246bc5435e8f081008
+      internalID: 782234017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbed6839aaa99034986d9c0485449c4a
+      internalID: -171715836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd74d5f1a9c149d4ca137c20a3226b71
+      internalID: -357749965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c73dfbec21c9494eb5c9ccdabf5b022
+      internalID: -1291842764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c259e1f22e1b8469cfc966021b159b
+      internalID: 1209886306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a6ce3d7c3bf849b6ca413a12df5f0
+      internalID: -1681613235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf72015c8f04ca44b250bdac73336bb
+      internalID: -81269955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_42
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b3bcfc530ae734abfbabb91daa4686
+      internalID: 1701531629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94a6b2af9e0ace46b2d48d05d719988
+      internalID: -1557425417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194f8e41301e1484f922156986b11a27
+      internalID: 994850029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_45
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714650d19af2fcf48afdda59009acfa5
+      internalID: -870121206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_46
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb15a65f62b02fb4cbe868064b2fcad4
+      internalID: -81490051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eeaaf7bcaa3f24a96e1c0a3eb036db
+      internalID: 57793397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_48
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6994c95fe8e653419a6023cb8b9b820
+      internalID: -2125526186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd068f6bcb0f1f429d29eebeb311de8
+      internalID: 705087268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_50
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34db1ca965c2784a9367ef10f109294
+      internalID: 2080880196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_51
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b4e44e64e9c1241b484677481b1280
+      internalID: 1382614967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_52
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1c367852fb1ff4bbe84c05742652f0
+      internalID: -202248555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a56baa6cdde44b98b675d9346b5cb
+      internalID: 131043694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_54
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6941ebb11980414cb3c1c01bd82b845
+      internalID: 1390596532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_55
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fadbd681a9537b42a642e472abb3547
+      internalID: -1874628958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_56
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b640fd1fbee924244bb5400dbd20dc11
+      internalID: -574621093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_57
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee91e5b2e63050946bbfe330cde19944
+      internalID: -1055538422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_58
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d575f40b4c20c774bbf17a2d188f46e5
+      internalID: 115216635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_59
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c29e1661becd004aaa4a7aab0666059
+      internalID: 371135268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_60
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27889daa0aa1394b97b4788564a5fd3
+      internalID: 2104406615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_61
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82db6e31ff0ca0d46a80b529044399bd
+      internalID: 338850313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_62
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaac35779d36724ca9e745f9382f004
+      internalID: -2076094410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_63
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8557e83beeb046b468f2f506cf86ba3a
+      internalID: -1511360828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_64
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc8f73561d78340b014dc7c8f24cd5
+      internalID: -665242200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_65
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 78
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ba48a3928f9347a3d8edc652575e7
+      internalID: 1092296623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc6a0e4f4c1654eb9d24ceae669d21
+      internalID: 771994729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_67
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1b2781f2a7cab4cb234eec63420f58
+      internalID: -904542232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_68
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ef612b8d642c4da3a020de51d97c2
+      internalID: -1485088694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_69
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e6d426ee8123e489f1d1b4059e061c
+      internalID: 1270799812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_70
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f021649ce8b71469e96f7937e6bef7
+      internalID: -1572089751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc277882a0b3fd46a34ab71cc23e010
+      internalID: -1053193306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_72
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb75e5205302a4478d1485199eeb8eb
+      internalID: -834306040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_73
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17de376d09162134584c28a15aa88925
+      internalID: -74905607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86b62e314e90e47bdde71332c5b3a0
+      internalID: -1424544791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_75
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e228683b7ef0ff4ca88df442d73010b
+      internalID: -1058557774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_76
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fbeac7173b7f4da9e79600342cf01
+      internalID: -1317116883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_77
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b41c628e373cdf44b0ca22a3af19602
+      internalID: 1325409649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_78
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a812ffb8399b544b97e6d754a8d6dc
+      internalID: -371717924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_79
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6197f83d7c926c478dc20f3660cbcd7
+      internalID: 950272481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_80
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd56aab5bd3f10f43b8b827fc8b81a1d
+      internalID: -2008595527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_81
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df5b69c4fea2584ba74f393a5bf6d92
+      internalID: 1069065413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e41bc4b9655c0b4db4e816f46698858
+      internalID: -729706507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_83
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2c2770ce362d645aa0f96da7902e75
+      internalID: -1328812810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_84
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48229b3441387c43950f2ef977f2d67
+      internalID: -39937984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_85
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba09dfdea8af214eb74417509114477
+      internalID: 589436119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_86
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d17701f7bcd7e94d828cd56f89e2a23
+      internalID: 1705032532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_87
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc93e5bbcbc8d4c9e34f5b3c1e51e4
+      internalID: 617098795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_88
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13394171f56f8d040948699429b27f5c
+      internalID: -1501541072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_89
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e6d07b5c8cf4c4781efc920916cf88
+      internalID: 271806320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_90
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b881fa3e4df6b48a6ecb710855218a
+      internalID: 183344792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_91
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f971106044a3aae47ad0f75dc3903234
+      internalID: 1233051744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_92
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076775e5912b55042ba35608bde7d767
+      internalID: -434323168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_93
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111e54e0fd10e0b4db258b67ca0acbd8
+      internalID: -82207273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_94
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f60cbd187ef0b747bf1bcfb0de1e2ce
+      internalID: 70605507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_95
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d43749372c0b604c9909c492b4c09f7
+      internalID: -668444073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_96
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff96f64e02ae374899f9e942a42dd2c
+      internalID: 693976155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_97
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf5e92530055f8428ae41c856ab4469
+      internalID: 1350211770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_98
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53d1f103e75be148906040de23be6f4
+      internalID: -306559642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbde7118adb250d4e9ac6fc998ced679
+      internalID: 142780233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_100
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765b1e4f7d4a6ff47adce52227edc90b
+      internalID: 968474605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_101
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a88a605df1ac0a4b88168b8995c902c
+      internalID: 59929301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_102
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41818e88655a6e54c9be6b83d329d2df
+      internalID: -74955261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_103
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26c5525cd22ce94395ee09885f73664
+      internalID: 938732421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_104
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a70e704c20828546ace7d770d17b7f9
+      internalID: 327031039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_105
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6febde2e73dcd419c13194af8bf4d7
+      internalID: 1679121191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_106
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282d593aeb826d540ac07ef0a8a4b442
+      internalID: -2027024530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5da536f7c19c842a7a60918fa1e52e
+      internalID: 931310976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_108
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359bba427bfa2504baade19ac715ce27
+      internalID: -217608109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d33786ac4d98ef4ab3a57d6a672c97c
+      internalID: -714801623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_110
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c27eb07cfa38594e8097608099a796e
+      internalID: -2082598841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_111
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ead8d34a2b43754f924e23fa3806984
+      internalID: -264336416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_112
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1876fc470e3de6740a45babb16eedfcc
+      internalID: -1445592844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_113
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3dcf6344f1e7f40af2731b8b75ea11
+      internalID: 1025930404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_114
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37242cca0c042348aa3b29fc08490ad
+      internalID: -2127500164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_115
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e516012b8840f41ab8a37f13e3b513
+      internalID: -1448650230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_116
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b429e026eef3946917e14deaea1e3f
+      internalID: -585383934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_117
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed83122d313e7646b1d9ecb50ff2db2
+      internalID: 1889114525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_118
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6883095f834c9b45a5da6e7e5305a68
+      internalID: 1421107889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_119
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc53e4b33bd958040a22e35244434b31
+      internalID: 1114959288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_120
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d22d55c841dbf4a994a83c297cc1bb
+      internalID: 222225222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_121
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a660822d5e4543bd7df2e956fc562
+      internalID: 941201383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_122
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d13706b7d3e14346961318f99bd6304
+      internalID: -1299159321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_123
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc979a95ceb0d40893f4209d206e27
+      internalID: -457036915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_124
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5ffbf13f8227d45a0ece2221639a48
+      internalID: -171587017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_125
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5962a27065d55e4b938cbe81af2da7e
+      internalID: -1893124697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_126
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5362f62e111c1de4bb1eec1f707acf49
+      internalID: 1134975960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_127
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a02271d445549745b795a2ed20e0c96
+      internalID: -1576566679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_128
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e63be3b6558f1245a728d82fa636125
+      internalID: 877418352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_129
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1710330f207f3fb4bb815e9d8312ae2e
+      internalID: -683920048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_130
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0178ddb4682bc5b4cba058e210c51201
+      internalID: 1649216123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PISO CHINGON_131
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 18
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844ff4ec8411082438cf533dab1dae09
+      internalID: 1395246269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PISO CHINGON_0: 597518523
+      PISO CHINGON_1: -1401022193
+      PISO CHINGON_10: 1805617923
+      PISO CHINGON_100: 968474605
+      PISO CHINGON_101: 59929301
+      PISO CHINGON_102: -74955261
+      PISO CHINGON_103: 938732421
+      PISO CHINGON_104: 327031039
+      PISO CHINGON_105: 1679121191
+      PISO CHINGON_106: -2027024530
+      PISO CHINGON_107: 931310976
+      PISO CHINGON_108: -217608109
+      PISO CHINGON_109: -714801623
+      PISO CHINGON_11: -2136637751
+      PISO CHINGON_110: -2082598841
+      PISO CHINGON_111: -264336416
+      PISO CHINGON_112: -1445592844
+      PISO CHINGON_113: 1025930404
+      PISO CHINGON_114: -2127500164
+      PISO CHINGON_115: -1448650230
+      PISO CHINGON_116: -585383934
+      PISO CHINGON_117: 1889114525
+      PISO CHINGON_118: 1421107889
+      PISO CHINGON_119: 1114959288
+      PISO CHINGON_12: 1843346925
+      PISO CHINGON_120: 222225222
+      PISO CHINGON_121: 941201383
+      PISO CHINGON_122: -1299159321
+      PISO CHINGON_123: -457036915
+      PISO CHINGON_124: -171587017
+      PISO CHINGON_125: -1893124697
+      PISO CHINGON_126: 1134975960
+      PISO CHINGON_127: -1576566679
+      PISO CHINGON_128: 877418352
+      PISO CHINGON_129: -683920048
+      PISO CHINGON_13: -255680183
+      PISO CHINGON_130: 1649216123
+      PISO CHINGON_131: 1395246269
+      PISO CHINGON_14: -31395482
+      PISO CHINGON_15: 1779921291
+      PISO CHINGON_16: -1611099097
+      PISO CHINGON_17: -153439693
+      PISO CHINGON_18: -1887975441
+      PISO CHINGON_19: 210150756
+      PISO CHINGON_2: 2029990888
+      PISO CHINGON_20: 2116171713
+      PISO CHINGON_21: -170120598
+      PISO CHINGON_22: 1073902192
+      PISO CHINGON_23: -1317192732
+      PISO CHINGON_24: 771709737
+      PISO CHINGON_25: 297957771
+      PISO CHINGON_26: 338797154
+      PISO CHINGON_27: -1924608728
+      PISO CHINGON_28: -2115741514
+      PISO CHINGON_29: -1672302492
+      PISO CHINGON_3: -840998440
+      PISO CHINGON_30: -953520333
+      PISO CHINGON_31: -1760809132
+      PISO CHINGON_32: 1242282262
+      PISO CHINGON_33: 1098645469
+      PISO CHINGON_34: 1402263751
+      PISO CHINGON_35: 782234017
+      PISO CHINGON_36: -171715836
+      PISO CHINGON_37: -357749965
+      PISO CHINGON_38: -1291842764
+      PISO CHINGON_39: 1209886306
+      PISO CHINGON_4: -1094963001
+      PISO CHINGON_40: -1681613235
+      PISO CHINGON_41: -81269955
+      PISO CHINGON_42: 1701531629
+      PISO CHINGON_43: -1557425417
+      PISO CHINGON_44: 994850029
+      PISO CHINGON_45: -870121206
+      PISO CHINGON_46: -81490051
+      PISO CHINGON_47: 57793397
+      PISO CHINGON_48: -2125526186
+      PISO CHINGON_49: 705087268
+      PISO CHINGON_5: 1056322802
+      PISO CHINGON_50: 2080880196
+      PISO CHINGON_51: 1382614967
+      PISO CHINGON_52: -202248555
+      PISO CHINGON_53: 131043694
+      PISO CHINGON_54: 1390596532
+      PISO CHINGON_55: -1874628958
+      PISO CHINGON_56: -574621093
+      PISO CHINGON_57: -1055538422
+      PISO CHINGON_58: 115216635
+      PISO CHINGON_59: 371135268
+      PISO CHINGON_6: -1588371067
+      PISO CHINGON_60: 2104406615
+      PISO CHINGON_61: 338850313
+      PISO CHINGON_62: -2076094410
+      PISO CHINGON_63: -1511360828
+      PISO CHINGON_64: -665242200
+      PISO CHINGON_65: 1092296623
+      PISO CHINGON_66: 771994729
+      PISO CHINGON_67: -904542232
+      PISO CHINGON_68: -1485088694
+      PISO CHINGON_69: 1270799812
+      PISO CHINGON_7: -697318203
+      PISO CHINGON_70: -1572089751
+      PISO CHINGON_71: -1053193306
+      PISO CHINGON_72: -834306040
+      PISO CHINGON_73: -74905607
+      PISO CHINGON_74: -1424544791
+      PISO CHINGON_75: -1058557774
+      PISO CHINGON_76: -1317116883
+      PISO CHINGON_77: 1325409649
+      PISO CHINGON_78: -371717924
+      PISO CHINGON_79: 950272481
+      PISO CHINGON_8: -844769275
+      PISO CHINGON_80: -2008595527
+      PISO CHINGON_81: 1069065413
+      PISO CHINGON_82: -729706507
+      PISO CHINGON_83: -1328812810
+      PISO CHINGON_84: -39937984
+      PISO CHINGON_85: 589436119
+      PISO CHINGON_86: 1705032532
+      PISO CHINGON_87: 617098795
+      PISO CHINGON_88: -1501541072
+      PISO CHINGON_89: 271806320
+      PISO CHINGON_9: -131742943
+      PISO CHINGON_90: 183344792
+      PISO CHINGON_91: 1233051744
+      PISO CHINGON_92: -434323168
+      PISO CHINGON_93: -82207273
+      PISO CHINGON_94: 70605507
+      PISO CHINGON_95: -668444073
+      PISO CHINGON_96: 693976155
+      PISO CHINGON_97: 1350211770
+      PISO CHINGON_98: -306559642
+      PISO CHINGON_99: 142780233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
