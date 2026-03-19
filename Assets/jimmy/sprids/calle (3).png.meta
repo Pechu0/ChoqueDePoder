@@ -1,0 +1,4429 @@
+fileFormatVersion: 2
+guid: 6e6de33af32a2ef4f93cfdeb79738f9c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: calle (3)_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 401
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a1d91b577d1a046b565969f66166d5
+      internalID: 1986415388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be954260b7a701644b2023c50558e98a
+      internalID: -2027042400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7379b464484e1cc478d463dbb9fd6d27
+      internalID: -1701389521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_17
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512711c4d4d4e29498a6b6cfb9587843
+      internalID: 1786606714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ff31324fbec864991abd0d8aa09521
+      internalID: -227270331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d990393763736084bb4831a2f7aa6c72
+      internalID: -1880841817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea319aa3c98b5440836b74e6ee53c0c
+      internalID: -688938494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeac76dc3a7f573458530f29a95525a0
+      internalID: -249339842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e10a501f27e6644aa0ec41ac2992565
+      internalID: -1718549994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406c8823de1ba12449e59680a11166c2
+      internalID: -1199494073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_37
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb73493410620e24ca76e6cc79093485
+      internalID: -1984934023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f418e0d1dc7e247a5d96e2152f9f8d
+      internalID: -274058053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7161c66ff39a004ea4350f5142101a8
+      internalID: -520749522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0fc261d4653284eaf272df39a51484
+      internalID: -1544297871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5c99b9bb75e9e45a75feebedbbcef1
+      internalID: -1996387384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_70
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7711c4e05f2f83a4caa87048c02bd6ef
+      internalID: -1540968626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 401
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3524e86eb6e28444abcd775b142fc2be
+      internalID: 33149784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 401
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a50df0b9cf634c93ae7260f3355aa
+      internalID: -1660429108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 401
+        width: 63
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e0db9ccc689cd4e8750f30c81bd1a3
+      internalID: -1979354701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ddbd9c2bb8e1740a8477d8012639b0
+      internalID: -1579887083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_7
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dde86a36109094c90125d2e5c6c366
+      internalID: -914177370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644ded43abeb4c841937f2f0b90f7a1a
+      internalID: 51346823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8376a3640fb50be42a105e8b0a97ee9f
+      internalID: 564041839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cf6a14ef0ab4b40ab581a68459384d
+      internalID: -326547653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a39d168a611ce4eafffb9781abcd8b
+      internalID: 1813501403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00928f84d38f71940b6c0f5c92c1a496
+      internalID: 87724690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3ed9bd5948bc940be43902bd6a44a3
+      internalID: -435294847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 393
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796ef5743b7fd96419b2929740edcc43
+      internalID: 981345673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a6f2ec842f76f4a80f13934f55a186
+      internalID: -1354652044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f487fe32aa7bde4295864d09975c81e
+      internalID: -753389143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8643a825ea3530b439df715ad566786b
+      internalID: 248546604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ab506b468c7df46b43457a2a09450c
+      internalID: -4037499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb24fbc242f31408d17c5d5cbb8601
+      internalID: 1678057346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26eb1a3c6dae7242b1c020806d1b15e
+      internalID: 1162346733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea488ea86e0fff4084387fccc018db6
+      internalID: -1498776972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39328b5c26ed0af40b3f51a1914cbf14
+      internalID: 1976026900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07ed05e50298a745a5d181af9995061
+      internalID: -1205356632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33793daeac2737d4a9b6e0d6756f757e
+      internalID: -526105864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_31
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d1e8fd0669adf41a92fab646fa0304
+      internalID: -1751350506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_32
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fa05fae449491499a003ab10381cbf
+      internalID: -1153907465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_39
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acc5b2f63974ff4f82840c80adeda55
+      internalID: 192842173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_40
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9228f92f00dd2439906b87eac2cc1f
+      internalID: 879845022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_41
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74df2127f2a4b464c89ceb3e660e6a42
+      internalID: 589584942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_42
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adeec62f98ebbc4e8c97bb390743dde
+      internalID: -1622436378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_43
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4741248bde82eb4ebc6812d3b44f012
+      internalID: 1070202962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_44
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078658973aa8464c897b9ca6637a98a
+      internalID: 918041929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_45
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1221ede04082e6a47b2024610a02fc4d
+      internalID: -572317002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_46
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc8c4a9abba0e4d820ba7b0ee24207
+      internalID: -1835381247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_47
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ec1b635e1e8084e909b4ee114ddd25
+      internalID: 1621294517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_48
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 363
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0bdcae74b135b46a04207f5c56d973
+      internalID: 826319853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b84187c2975ee40ad468716fc0bccd
+      internalID: -722055488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a056fd87c1f7e434ebcba230f2561616
+      internalID: 685835132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_55
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46c8e9439e43d044b2db862726ff5ce
+      internalID: 1632672524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_56
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311612d87b283a74db6e7bec08207c41
+      internalID: -606881931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_57
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87d08466b6b92d49af6f37c8953f3f6
+      internalID: -5574276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_58
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d867c3fca1ad41827dc2d2ca5e846
+      internalID: -2133229451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_59
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c77296b26f8d5458952918556d53a3
+      internalID: -560041109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_60
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb3f9947f8b6444b916afa04d792260
+      internalID: 1431881922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649fd26882307840b02bc78c24f8fa2
+      internalID: 798845870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_62
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30da1beb8da42ef48afad52429de74f0
+      internalID: -1133418886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_63
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398a1961ed5e5264584b7e9d00874088
+      internalID: -1504598157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_64
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df37c85b6bb31042a71fb5a104d9bfd
+      internalID: 1208749151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169efdd3717eea64c87ff72114e7b58c
+      internalID: 1503562387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_66
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73b5422b8a1ed44fa9ab7e9d34bbce0
+      internalID: 451817812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_67
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd663cb7428a2504baad08c75787ef6b
+      internalID: 1544757212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_68
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8d48a64b3f9554183cedce6b806b67
+      internalID: 1874131773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_71
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244663110bb339947888b62b46258e87
+      internalID: -1116293913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_72
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42fc64285857d84787af280e409ecff
+      internalID: -2144021777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_73
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77626efa17c45149bb1c223648f5bc7
+      internalID: -419071186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_74
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085678242e7c89145ab44a6269d4769d
+      internalID: 828782805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_75
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60792dfa4b817942aa6844c1bb64b75
+      internalID: -1202255214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_76
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ebf4dad15785a489882f573d108eb4
+      internalID: 631316553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_77
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a01cb9b57e070540b4ae2ed172eaa15
+      internalID: -1930607076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_78
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dce7a66e117ac049975ad4e0b66561f
+      internalID: -2105531493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_79
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 333
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118badac87bfdb0479e2ec4f5e9fb61c
+      internalID: 841493227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_82
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c3986375dbb534a92d682a1c4aaf1f
+      internalID: 335782525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_83
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c5ba78fa21b2d488673cef64a5cf0c
+      internalID: -360531546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_84
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce5010e9c2d47a4184254cd245701d4
+      internalID: 1277719762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_85
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da32795f4bf9cb4e93bd1ed1bb03a4d
+      internalID: 1015990824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_86
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690126df508a37f428555a908533c881
+      internalID: -1105701663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_87
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfb0444febba104d9fd9b5174309c9f
+      internalID: 1828495389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_88
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91519244008d934997e004db09e6b30
+      internalID: -879852091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_89
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e9f4c11bb47b4e90e1be604312edd
+      internalID: -1751801159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_90
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1800bdecf13489348b28a275c93997e7
+      internalID: 59708598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_91
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3c7c51b42153b4bb6a90068869ebec
+      internalID: 491586614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_92
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152f58bea798425439d41be9fa2ab308
+      internalID: -1329741017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_93
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f177407e69802458ecb0a5ba9d2a51
+      internalID: 1738438725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_94
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff668c4a6edb924ab58ecfac0e32385
+      internalID: 1262276962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_95
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60773668141c83242b9d252b892d8c62
+      internalID: -2094948315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_96
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8b59add3196294285bb0f967014994
+      internalID: -1227410952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_97
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6820742aa1059e749b0caee29ed316e3
+      internalID: 1809610544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_98
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0735f2ce44b1848bfe525591874452
+      internalID: 2045748901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_99
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d959ed762f5505e40bfd347526d9ab14
+      internalID: 1606290897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_100
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09b97934a599ba46a4d61cb70e15a5d
+      internalID: -768194085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_101
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238cc63b828f1ba4b9264f812f568e51
+      internalID: 1541038687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_102
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e0a13b5344b44479895fd6394333b7
+      internalID: 486795428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_103
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a16af064952c8d409ad9ab60f9bf1c7
+      internalID: -1012368940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_104
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2066d5f0f0ba04f40906bb394be240cc
+      internalID: -1139260103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_105
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142bb5abef529864c8de9284675ba27e
+      internalID: 144503337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_106
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57d8b15e8cab4f4da7ac7b8423eb288
+      internalID: -1580779628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_107
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a10d9ae52a6c744c933339fa6246880
+      internalID: -2042802546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_108
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297d625cefb20414f984a943ce50c42f
+      internalID: -175747789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_109
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30effd2e8d0a437449ed164d998f33b1
+      internalID: 1051258658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_110
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b5b64508b8a6408204f7812f1328e
+      internalID: 391975953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_113
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a64b9364e7db84ea8869e511f05dc1
+      internalID: -34090784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_114
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f00802718701b439995cdfae9c4cc5
+      internalID: 1702501841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_115
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a922d71973168a34d8e48a80ba834792
+      internalID: 750604311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_116
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3fbcf9e1422694cae1d327b5e2966a
+      internalID: 4162758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ea77b8f8926cf408a7d10cee2c687a
+      internalID: 459529107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_118
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2834d3fa3c289ea45b33a188a730a852
+      internalID: 794003594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1279416f3a87bf24c88c9357f07929d9
+      internalID: -731402883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d0b00a650d71746a73e91156a80c26
+      internalID: -1652202581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_121
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812fc22e1843ea3408ee82ad9786e6cc
+      internalID: -1681605672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_122
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d432391d1830a34faea9bad51a6bc95
+      internalID: 733080381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_123
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd4c720fc4d1eb4e98d5b0cd8346677
+      internalID: -140084024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_124
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4661185f727e5242b6191176edbe5ca
+      internalID: 442684506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_125
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049e6b2ca6388474989b7ccab8e04c2f
+      internalID: 468033700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_126
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d562cd287f29826419d8d9f1eb2b1c59
+      internalID: -436267387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a637ca3f0dbe154ca99ccd8cc1953b4
+      internalID: 1655843271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_128
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0271517301e184b80e5d74d2cae260
+      internalID: -1611039282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_129
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c32c4df21df5444924fea138f50e23
+      internalID: 1926166933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_130
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4fae02ed8bd8f4387c20098a120bc1
+      internalID: -689340281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_131
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749902177ed2f5345a569b9181442ac0
+      internalID: -1953713203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_132
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b826b6404d919014f822c8168b02083c
+      internalID: 1456155368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_133
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bddabacba560414cb276946b72da982
+      internalID: -1087814291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_134
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df994bf4732896d409276c90640d59fc
+      internalID: -993358840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_135
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22e10a283578ad42a2a6d59e1489d5c
+      internalID: 1797126016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_136
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2162393f9193da44ca6874bdb33e799f
+      internalID: 241678212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_137
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0691f185dd5ef844a1e6475cd9deed8
+      internalID: 1094106207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_138
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a62937b3d52c14cbb369071a76cc48
+      internalID: 1327450239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_139
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1be1f80fc8ddec47860931f4da80bfa
+      internalID: 647546431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_140
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54c6a4f73f82ea479419e4e4b7bc7bc
+      internalID: -2107063917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_141
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 281
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4365661b7bd4c2946b4089f91535a516
+      internalID: 763074588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_144
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296ddc3a2294e4445a3cbcccfdce4f2a
+      internalID: 2067817462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_145
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f54072727d8dd044ae99368d6855261
+      internalID: 430185761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_146
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67456bbab81a43f408b7c39ea675d806
+      internalID: 192188375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_147
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3492faf61a5c81b44bc0313688a163cc
+      internalID: 1944717434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_148
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1039297c23ff8449b087a3ecf14f404
+      internalID: 1620523043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_149
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9c93981c4d3f640afafc4fbe4e3a93
+      internalID: 183413106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_150
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e76f4ae691f62547811d0f96f3e9a26
+      internalID: 224725563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_151
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540305f24c2d03b4e843751fa281beb5
+      internalID: 467736937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_152
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cecfcec6db77ad47a01cab88f6ce431
+      internalID: -1073793650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_153
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b23e77d68b9ef4aa3e698351c0ecb0
+      internalID: -2006656665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_154
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e3fb2977e396040a0635f0d8274068
+      internalID: 809777507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_155
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 239
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8cfc4ed2ff6fb41aa047e93c4f382e
+      internalID: -612339784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_162
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a928ea1eb94044b40e226c7134420
+      internalID: 1937790879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_163
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00688d3ce2d7ed7498f5101dfa1bc82c
+      internalID: 1206179708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_164
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf49c6b2e699566489618ce57e403e9a
+      internalID: 1620550182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_165
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55af3a90da7a59b44b790dc02267e5d4
+      internalID: -787091526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_166
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fd7641ebc8b9240bd64860b532ee13
+      internalID: -311643808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_167
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca69640223e0c34084873f51e721aac
+      internalID: 1056386342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_168
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275906e2a28a4c34c8ce83bfa6ae80e8
+      internalID: 1067807638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_169
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb49ac00cc6a74749a44f51350f72101
+      internalID: -691138102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_170
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bb7a030f5e50545b60e3c72e724baf
+      internalID: -32157387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_171
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73036d4e7d18ac45a2ec0ce35b25851
+      internalID: -1266338262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_172
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b673a11b7e18149b8e6ec970385b22
+      internalID: -1701121671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_173
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba748c28356348a4fad4d5918e99b674
+      internalID: -105512209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_193
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b85d9f0ce3611e45b6ff561a90c8460
+      internalID: 1728870022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_194
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5537e89dd409d4ba7e33b4e38bab51
+      internalID: 2072050421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_195
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ffe4d7bc211340a013a138d8874e7
+      internalID: -1986978432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_196
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5b948fcdc309643a3b7d3af94996be
+      internalID: -457499827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_197
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca0b99a31a0484dbaf33dc87a9ffea
+      internalID: 744479130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_198
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542ec8b3e3899d64ab640ea1cb3be402
+      internalID: 98298441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_199
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5b3a1f4b839040a98b56f3558a3e2
+      internalID: 1940661370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_200
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde5256fdffaff4aa34467cebec5f9a
+      internalID: -256196089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_201
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9994ea467b994cb4b8c100b229c7d8c5
+      internalID: 1255535071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_202
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2953b9557ef307043a5f65637e503441
+      internalID: 450237285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_203
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efd4a15b482bb843b728cfa6d669bea
+      internalID: -2029409423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_204
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e387cd4d2b133354ebda7185ce29643a
+      internalID: -1129925090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_206
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdd3349ae298bc4983b448966a206f8
+      internalID: -1301268109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_207
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940929f9f537df54494b931cd94cd603
+      internalID: 668666851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_208
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3651dc15b436149b25c011f0dc20ef
+      internalID: -1173741487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_209
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a0a593fdd65a04fab8bdda5493fb9e
+      internalID: -1037191713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_210
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae33c02015c3c146949efc79c9f431e
+      internalID: 1016076012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_211
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ec2b8f0fbfd164298d365aad2445df
+      internalID: 506177913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_212
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f327fe51de3e943b93ccafe7c94d0b
+      internalID: 1789480822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_213
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b41b0526a880184594a8f94dd3ec0e3
+      internalID: 1177127775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_214
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0a90f36dc94d149b28c6b28874a541
+      internalID: -777442972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_215
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254a1463feae2304487e445676e83e0c
+      internalID: 373476006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_216
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4323e2091ce654f9cbc5de4a6f2b35
+      internalID: 665710902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_217
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 195
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d596f3f930abb4498b1216a63d96ba
+      internalID: -1465173302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_224
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a2ae8d59c678542a95c8da8e0362c4
+      internalID: -1666764674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_225
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531808504db3da34588b5d7e93f8d6de
+      internalID: 518491757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_226
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d29bc498d9492149a35da739f1a9202
+      internalID: -240699528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_227
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed269b8a3f5f1458cc448ca8c0359a
+      internalID: 1883287680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_228
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e997fc3364b2478b25306d221d2e6
+      internalID: 1593122885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_229
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f652af9b2b11547a6cd6f86bcb6de4
+      internalID: 139730918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_230
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c4c7327b01ce14da8e74919f51f96c
+      internalID: 1324342491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_231
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d3ea15fb6d43b4d998b0ef1b714d47
+      internalID: 621126254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_232
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece110dba21f5ae4581dc3ddd8c74fb3
+      internalID: -1149879784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_233
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85206e66ae9509499e0c1a8cea31313
+      internalID: -2024993787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_234
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf330d22c1b8754fa184845e8bb889f
+      internalID: 40462245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle (3)_235
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78baaab107f62914caa9b7df58de3080
+      internalID: 379820578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      calle (3)_0: 33149784
+      calle (3)_1: 1986415388
+      calle (3)_10: -326547653
+      calle (3)_100: -768194085
+      calle (3)_101: 1541038687
+      calle (3)_102: 486795428
+      calle (3)_103: -1012368940
+      calle (3)_104: -1139260103
+      calle (3)_105: 144503337
+      calle (3)_106: -1580779628
+      calle (3)_107: -2042802546
+      calle (3)_108: -175747789
+      calle (3)_109: 1051258658
+      calle (3)_11: 1813501403
+      calle (3)_110: 391975953
+      calle (3)_111: 1457121123
+      calle (3)_112: -772433746
+      calle (3)_113: -34090784
+      calle (3)_114: 1702501841
+      calle (3)_115: 750604311
+      calle (3)_116: 4162758
+      calle (3)_117: 459529107
+      calle (3)_118: 794003594
+      calle (3)_119: -731402883
+      calle (3)_12: 87724690
+      calle (3)_120: -1652202581
+      calle (3)_121: -1681605672
+      calle (3)_122: 733080381
+      calle (3)_123: -140084024
+      calle (3)_124: 442684506
+      calle (3)_125: 468033700
+      calle (3)_126: -436267387
+      calle (3)_127: 1655843271
+      calle (3)_128: -1611039282
+      calle (3)_129: 1926166933
+      calle (3)_13: -435294847
+      calle (3)_130: -689340281
+      calle (3)_131: -1953713203
+      calle (3)_132: 1456155368
+      calle (3)_133: -1087814291
+      calle (3)_134: -993358840
+      calle (3)_135: 1797126016
+      calle (3)_136: 241678212
+      calle (3)_137: 1094106207
+      calle (3)_138: 1327450239
+      calle (3)_139: 647546431
+      calle (3)_14: 981345673
+      calle (3)_140: -2107063917
+      calle (3)_141: 763074588
+      calle (3)_142: -2067386178
+      calle (3)_143: -1608656701
+      calle (3)_144: 2067817462
+      calle (3)_145: 430185761
+      calle (3)_146: 192188375
+      calle (3)_147: 1944717434
+      calle (3)_148: 1620523043
+      calle (3)_149: 183413106
+      calle (3)_15: -2027042400
+      calle (3)_150: 224725563
+      calle (3)_151: 467736937
+      calle (3)_152: -1073793650
+      calle (3)_153: -2006656665
+      calle (3)_154: 809777507
+      calle (3)_155: -612339784
+      calle (3)_156: 1762392723
+      calle (3)_157: 827281757
+      calle (3)_158: -255514875
+      calle (3)_159: 510589681
+      calle (3)_16: -1701389521
+      calle (3)_160: 293698731
+      calle (3)_161: -1681618419
+      calle (3)_162: 1937790879
+      calle (3)_163: 1206179708
+      calle (3)_164: 1620550182
+      calle (3)_165: -787091526
+      calle (3)_166: -311643808
+      calle (3)_167: 1056386342
+      calle (3)_168: 1067807638
+      calle (3)_169: -691138102
+      calle (3)_17: 1786606714
+      calle (3)_170: -32157387
+      calle (3)_171: -1266338262
+      calle (3)_172: -1701121671
+      calle (3)_173: -105512209
+      calle (3)_174: 1266174370
+      calle (3)_175: -11219178
+      calle (3)_176: -1436437806
+      calle (3)_177: 225636517
+      calle (3)_178: -550254504
+      calle (3)_179: 408301443
+      calle (3)_18: -227270331
+      calle (3)_180: 140012955
+      calle (3)_181: -277861007
+      calle (3)_182: 775290092
+      calle (3)_183: -855261610
+      calle (3)_184: 1403407844
+      calle (3)_185: -856414264
+      calle (3)_186: -984629508
+      calle (3)_187: -1485787303
+      calle (3)_188: 2126381337
+      calle (3)_189: 1245906386
+      calle (3)_19: 493802148
+      calle (3)_190: -1369063039
+      calle (3)_191: 2068028001
+      calle (3)_192: -626723154
+      calle (3)_193: 1728870022
+      calle (3)_194: 2072050421
+      calle (3)_195: -1986978432
+      calle (3)_196: -457499827
+      calle (3)_197: 744479130
+      calle (3)_198: 98298441
+      calle (3)_199: 1940661370
+      calle (3)_2: -1660429108
+      calle (3)_20: -1880841817
+      calle (3)_200: -256196089
+      calle (3)_201: 1255535071
+      calle (3)_202: 450237285
+      calle (3)_203: -2029409423
+      calle (3)_204: -1129925090
+      calle (3)_205: 2016945678
+      calle (3)_206: -1301268109
+      calle (3)_207: 668666851
+      calle (3)_208: -1173741487
+      calle (3)_209: -1037191713
+      calle (3)_21: -1354652044
+      calle (3)_210: 1016076012
+      calle (3)_211: 506177913
+      calle (3)_212: 1789480822
+      calle (3)_213: 1177127775
+      calle (3)_214: -777442972
+      calle (3)_215: 373476006
+      calle (3)_216: 665710902
+      calle (3)_217: -1465173302
+      calle (3)_218: 1217720214
+      calle (3)_219: -1389220679
+      calle (3)_22: -753389143
+      calle (3)_220: -1606260161
+      calle (3)_221: 610243233
+      calle (3)_222: -915721117
+      calle (3)_223: 2074066134
+      calle (3)_224: -1666764674
+      calle (3)_225: 518491757
+      calle (3)_226: -240699528
+      calle (3)_227: 1883287680
+      calle (3)_228: 1593122885
+      calle (3)_229: 139730918
+      calle (3)_23: 248546604
+      calle (3)_230: 1324342491
+      calle (3)_231: 621126254
+      calle (3)_232: -1149879784
+      calle (3)_233: -2024993787
+      calle (3)_234: 40462245
+      calle (3)_235: 379820578
+      calle (3)_24: -4037499
+      calle (3)_25: 1678057346
+      calle (3)_26: 1162346733
+      calle (3)_27: -1498776972
+      calle (3)_28: 1976026900
+      calle (3)_29: -1205356632
+      calle (3)_3: -1979354701
+      calle (3)_30: -526105864
+      calle (3)_31: -1751350506
+      calle (3)_32: -1153907465
+      calle (3)_33: -688938494
+      calle (3)_34: -249339842
+      calle (3)_35: -1718549994
+      calle (3)_36: -1199494073
+      calle (3)_37: -1984934023
+      calle (3)_38: -274058053
+      calle (3)_39: 192842173
+      calle (3)_4: -925503930
+      calle (3)_40: 879845022
+      calle (3)_41: 589584942
+      calle (3)_42: -1622436378
+      calle (3)_43: 1070202962
+      calle (3)_44: 918041929
+      calle (3)_45: -572317002
+      calle (3)_46: -1835381247
+      calle (3)_47: 1621294517
+      calle (3)_48: 826319853
+      calle (3)_49: -46488636
+      calle (3)_5: -922806641
+      calle (3)_50: 1441363230
+      calle (3)_51: -520749522
+      calle (3)_52: -1544297871
+      calle (3)_53: -722055488
+      calle (3)_54: 685835132
+      calle (3)_55: 1632672524
+      calle (3)_56: -606881931
+      calle (3)_57: -5574276
+      calle (3)_58: -2133229451
+      calle (3)_59: -560041109
+      calle (3)_6: -1579887083
+      calle (3)_60: 1431881922
+      calle (3)_61: 798845870
+      calle (3)_62: -1133418886
+      calle (3)_63: -1504598157
+      calle (3)_64: 1208749151
+      calle (3)_65: 1503562387
+      calle (3)_66: 451817812
+      calle (3)_67: 1544757212
+      calle (3)_68: 1874131773
+      calle (3)_69: -1996387384
+      calle (3)_7: -914177370
+      calle (3)_70: -1540968626
+      calle (3)_71: -1116293913
+      calle (3)_72: -2144021777
+      calle (3)_73: -419071186
+      calle (3)_74: 828782805
+      calle (3)_75: -1202255214
+      calle (3)_76: 631316553
+      calle (3)_77: -1930607076
+      calle (3)_78: -2105531493
+      calle (3)_79: 841493227
+      calle (3)_8: 51346823
+      calle (3)_80: -1285334541
+      calle (3)_81: 2009972599
+      calle (3)_82: 335782525
+      calle (3)_83: -360531546
+      calle (3)_84: 1277719762
+      calle (3)_85: 1015990824
+      calle (3)_86: -1105701663
+      calle (3)_87: 1828495389
+      calle (3)_88: -879852091
+      calle (3)_89: -1751801159
+      calle (3)_9: 564041839
+      calle (3)_90: 59708598
+      calle (3)_91: 491586614
+      calle (3)_92: -1329741017
+      calle (3)_93: 1738438725
+      calle (3)_94: 1262276962
+      calle (3)_95: -2094948315
+      calle (3)_96: -1227410952
+      calle (3)_97: 1809610544
+      calle (3)_98: 2045748901
+      calle (3)_99: 1606290897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
