@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: c6383e42aba09c64cb45b288751bcffa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_0"
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1068
+        width: 140
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaf0b6968e46914ca01333a87297807
+      internalID: 36605108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_1"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 836
+        width: 117
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76896f36f45a42f499d8b18a8d580a37
+      internalID: 1245919361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_2"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 671
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bac49f55405d8e41822b822e8321c6e
+      internalID: 2123890838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_4"
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1077
+        width: 125
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bc2e62cac7c024888a4a202ac5c62c
+      internalID: -2073035369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_5"
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1066
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911c394a446e0964ab32fd9b1fee8fec
+      internalID: 539108154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_8"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1062
+        width: 92
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f116d94b86cd34e9fd01d0c6fc1a32
+      internalID: -886453036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_9"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 815
+        width: 116
+        height: 148
+      alignment: 9
+      pivot: {x: 0.4978847, y: 0.014241399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2addf0629e8309847a21e50ca9825259
+      internalID: -2064698166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_10"
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 825
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ba8c269657af940a22fb0bbe19a9a6
+      internalID: -311386811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_11"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 802
+        width: 81
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbde366df6b4af4c91ca6109e57efef
+      internalID: -605316419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_12"
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 813
+        width: 102
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e8e106c580bf145b7a0a71a0974435
+      internalID: -1268374544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_14"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 840
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fceb8914190cae40b25b6cae5e5c5e7
+      internalID: 1436667296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_15"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 522
+        width: 176
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1357c868b92e6de4b829c825e9c02ada
+      internalID: 1170829695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_17"
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 666
+        width: 77
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a31da42d1b9dd498cb4c66b7ea607a
+      internalID: 1574797469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_0": 36605108
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_1": 1245919361
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_10": -311386811
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_11": -605316419
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_12": -1268374544
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_13": -1158968049
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_14": 1436667296
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_15": 1170829695
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_16": -311462377
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_17": 1574797469
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_2": 2123890838
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_3": -489276047
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_4": -2073035369
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_5": 539108154
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_6": 1234411272
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_7": 1111707482
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_8": -886453036
+      "Colecci\xF3n cl\xE1sica de lujo y m\xE1rmol_9": -2064698166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

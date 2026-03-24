@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: b942698aa8513024490d3d55320d9551
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alfombra roja_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f927cab837c70d4bb2d55e82d94273c
+      internalID: -224806560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e2d6f4b09054648941e2688b2dd806
+      internalID: 2016908606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1381d8428ff66e40a538368653bc95e
+      internalID: 55392828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e019d35f42247c749ad13765d669f31c
+      internalID: -2025102928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8396cebcfa9bc564da9ed770dfbf0797
+      internalID: -2105299052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96bb0f7c48ed1e4289b8dd4b745df79
+      internalID: -1548603158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d18989dc2138664abb582300592d600
+      internalID: 1775600184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfombra roja_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ec792fe342f27429d15c9a9840ffe5
+      internalID: 492065082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      alfombra roja_0: -375352680
+      alfombra roja_1: -606781785
+      alfombra roja_10: -2107854338
+      alfombra roja_11: -288929138
+      alfombra roja_12: 1723005336
+      alfombra roja_13: 1890544593
+      alfombra roja_14: -181609321
+      alfombra roja_15: -799608797
+      alfombra roja_16: 1047010767
+      alfombra roja_17: 97077541
+      alfombra roja_18: -1765627623
+      alfombra roja_19: 1450855032
+      alfombra roja_2: -2144576539
+      alfombra roja_20: 361587253
+      alfombra roja_21: 390064073
+      alfombra roja_22: -232886480
+      alfombra roja_23: 767070944
+      alfombra roja_24: -1131820541
+      alfombra roja_25: -800268755
+      alfombra roja_26: -100369495
+      alfombra roja_27: -1472345541
+      alfombra roja_28: 486917988
+      alfombra roja_29: 1850110853
+      alfombra roja_3: -1663861020
+      alfombra roja_30: 552790776
+      alfombra roja_31: -1122698034
+      alfombra roja_32: 1875542580
+      alfombra roja_33: -224806560
+      alfombra roja_34: 2016908606
+      alfombra roja_35: 55392828
+      alfombra roja_36: -2025102928
+      alfombra roja_37: -2105299052
+      alfombra roja_38: -1548603158
+      alfombra roja_39: 1775600184
+      alfombra roja_4: -1969944853
+      alfombra roja_40: 492065082
+      alfombra roja_41: -1475176229
+      alfombra roja_42: 1680393387
+      alfombra roja_43: -1882896147
+      alfombra roja_44: -1059354818
+      alfombra roja_45: -992974743
+      alfombra roja_46: -758320688
+      alfombra roja_47: -1846170142
+      alfombra roja_48: 923538578
+      alfombra roja_49: 996069953
+      alfombra roja_5: 1872648202
+      alfombra roja_50: 1165865029
+      alfombra roja_51: 841080168
+      alfombra roja_52: 1061907352
+      alfombra roja_53: -506823122
+      alfombra roja_54: -499110084
+      alfombra roja_55: -2115262991
+      alfombra roja_56: -1103035060
+      alfombra roja_57: 1640874782
+      alfombra roja_58: -1816685788
+      alfombra roja_59: -111201187
+      alfombra roja_6: -982556408
+      alfombra roja_60: 1761331357
+      alfombra roja_61: 1267786623
+      alfombra roja_62: 342192402
+      alfombra roja_63: -1197711975
+      alfombra roja_64: 1899759114
+      alfombra roja_65: -421754369
+      alfombra roja_66: -530604589
+      alfombra roja_67: -1823655279
+      alfombra roja_68: 103676853
+      alfombra roja_69: 481739308
+      alfombra roja_7: 933204152
+      alfombra roja_70: 1118320734
+      alfombra roja_71: -998822300
+      alfombra roja_72: -178374002
+      alfombra roja_73: 1038138443
+      alfombra roja_74: 466832817
+      alfombra roja_75: 1384074442
+      alfombra roja_76: -771168594
+      alfombra roja_77: 113330060
+      alfombra roja_78: 596443686
+      alfombra roja_79: -1368103178
+      alfombra roja_8: -159060329
+      alfombra roja_80: -1457196067
+      alfombra roja_81: 738586334
+      alfombra roja_82: 1709973954
+      alfombra roja_83: -235496800
+      alfombra roja_84: 404551522
+      alfombra roja_85: 46369599
+      alfombra roja_86: -1029960389
+      alfombra roja_87: 1436698180
+      alfombra roja_88: 1740972740
+      alfombra roja_89: -544187187
+      alfombra roja_9: -1154700939
+      alfombra roja_90: 1103945667
+      alfombra roja_91: 423507832
+      alfombra roja_92: 666434660
+      alfombra roja_93: -1937247759
+      alfombra roja_94: 473789305
+      alfombra roja_95: -1472460839
+      alfombra roja_96: -1868324178
+      alfombra roja_97: 912188245
+      alfombra roja_98: -1205396023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

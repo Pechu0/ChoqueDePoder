@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: alfombra_504
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2107159010, guid: d15e68eb5c4ac4e4ab91d3227be439d6, type: 3}
+  m_Sprite: {fileID: -11754130, guid: fe622e30179df3245af74022d2d131f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
