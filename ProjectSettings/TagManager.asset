@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - New tag
   layers:
   - Default
   - TransparentFX
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: Capa Suelo
     uniqueID: 2768832303
+    locked: 0
+  - name: BANDERA
+    uniqueID: 1280349521
     locked: 0
