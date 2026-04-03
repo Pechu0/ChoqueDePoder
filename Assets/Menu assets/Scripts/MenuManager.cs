@@ -139,6 +139,10 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Nivel1");
     }
 
+    public void CargarNivel2()
+    {
+        SceneManager.LoadScene("Nivel2");
+    }
     // ===== SALIR =====
     public void Salir()
     {
