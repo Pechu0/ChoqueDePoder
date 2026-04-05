@@ -5,7 +5,11 @@ public class TrompasController : MonoBehaviour
     [Header("Movimiento")]
     public float velocidad = 5f;
     public float velocidadCorrer = 8f;
+
+    [Header("Salto")]
     public float fuerzaSalto = 7f;
+    public float multiplicadorSaltoBajo = 2f;   // gravedad extra al soltar espacio temprano
+    public float multiplicadorCaida = 2.5f;     // gravedad extra al caer
 
     [Header("Suelo")]
     public Transform puntoSuelo;
@@ -14,6 +18,7 @@ public class TrompasController : MonoBehaviour
 
     [Header("Golpe")]
     public float velocidadAnimGolpe = 1.5f;
+    public float duracionEstimadaGolpe = 0.35f; // tiempo aprox que dura el golpe (en segundos)
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -61,9 +66,11 @@ public class TrompasController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         }
 
-        if (Input.GetKeyDown(KeyCode.F) && enSuelo)
+        // Golpear en el suelo o en el aire si hay tiempo suficiente para terminar la animacion
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            Golpear();
+            if (enSuelo || TieneTiempoParaGolpearEnAire())
+                Golpear();
         }
 
         ActualizarAnimaciones();
@@ -73,12 +80,41 @@ public class TrompasController : MonoBehaviour
     {
         if (estaGolpeando)
         {
+            // Permitir gravedad natural si esta en el aire, frenar horizontal
             rb.velocity = new Vector2(0f, rb.velocity.y);
-            return;
+        }
+        else
+        {
+            float velocidadActual = estaCorriendo ? velocidadCorrer : velocidad;
+            rb.velocity = new Vector2(movimiento * velocidadActual, rb.velocity.y);
         }
 
-        float velocidadActual = estaCorriendo ? velocidadCorrer : velocidad;
-        rb.velocity = new Vector2(movimiento * velocidadActual, rb.velocity.y);
+        // Salto variable: mas gravedad al caer, o al soltar espacio en la subida
+        if (rb.velocity.y < 0f)
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (multiplicadorCaida - 1f) * Time.fixedDeltaTime;
+        }
+        else if (rb.velocity.y > 0f && !Input.GetKey(KeyCode.Space))
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (multiplicadorSaltoBajo - 1f) * Time.fixedDeltaTime;
+        }
+    }
+
+    bool TieneTiempoParaGolpearEnAire()
+    {
+        // Estima cuanto tiempo queda en el aire segun velocidad vertical y gravedad
+        float g = Mathf.Abs(Physics2D.gravity.y * rb.gravityScale);
+        float vy = rb.velocity.y;
+
+        // Tiempo restante hasta llegar al suelo (aproximacion: tiempo hasta apex + tiempo de caida razonable)
+        // Si sube, tiene tiempo de subida + caida; si cae, solo el tiempo de caida restante
+        float tiempoRestante;
+        if (vy > 0f)
+            tiempoRestante = (vy / g) + 0.3f; // tiempo hasta apex + colchon
+        else
+            tiempoRestante = 0.2f; // ya cayendo, poco tiempo
+
+        return tiempoRestante >= duracionEstimadaGolpe / velocidadAnimGolpe;
     }
 
     void ActualizarAnimaciones()
