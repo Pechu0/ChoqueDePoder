@@ -183,12 +183,15 @@ MonoBehaviour:
   velocidad: 200
   velocidadCorrer: 400
   fuerzaSalto: 500
+  multiplicadorSaltoBajo: 2
+  multiplicadorCaida: 2.5
   puntoSuelo: {fileID: 1342276167}
   radioSuelo: 10
   capaSuelo:
     serializedVersion: 2
     m_Bits: 8
   velocidadAnimGolpe: 2
+  duracionEstimadaGolpe: 0.35
 --- !u!70 &175494320
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -400,7 +403,7 @@ Transform:
   m_GameObject: {fileID: 357787356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 513.3, y: 154.8, z: 0}
+  m_LocalPosition: {x: 513.3, y: 154.8, z: -0.001}
   m_LocalScale: {x: 36.9, y: 36.9, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -710,7 +713,7 @@ Transform:
   m_GameObject: {fileID: 559308854}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 612.5, y: 154.8, z: 0}
+  m_LocalPosition: {x: 612.5, y: 154.8, z: -0.001}
   m_LocalScale: {x: 17.50025, y: 27.650349, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1713,9 +1716,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7429479011606552711, guid: 0e8c6e0c2782ded4f8c12e97bcbf4acc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 175494319}
-    - targetCorrespondingSourceObject: {fileID: 7429479011606552711, guid: 0e8c6e0c2782ded4f8c12e97bcbf4acc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 175494322}
     - targetCorrespondingSourceObject: {fileID: 7429479011606552711, guid: 0e8c6e0c2782ded4f8c12e97bcbf4acc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 175494322}
@@ -19144,6 +19144,7 @@ MonoBehaviour:
   colorAlto: {r: 0, g: 1, b: 0, a: 1}
   colorMedio: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   colorBajo: {r: 1, g: 0, b: 0, a: 1}
+  colorEscudo: {r: 0.2, g: 0.5, b: 1, a: 1}
   vidaJugador: {fileID: 175494322}
 --- !u!1 &2084922883
 GameObject:
