@@ -3072,8 +3072,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0088501, y: 0.0016327}
-  m_SizeDelta: {x: 2181.9, y: 950.36}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2200, y: 1100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1340378926
 MonoBehaviour:
@@ -4458,6 +4458,8 @@ MonoBehaviour:
   muteButtonImage: {fileID: 539564070}
   brightnessSlider: {fileID: 459460052}
   brightnessOverlay: {fileID: 279259511}
+  camaraMenu: {fileID: 1033097763}
+  tamanoOrtografico: 5
 --- !u!1 &2042432314
 GameObject:
   m_ObjectHideFlags: 0

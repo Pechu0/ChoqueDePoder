@@ -29,10 +29,10 @@ public class NubesFondo : MonoBehaviour
         offset.y += velocidadY * Time.deltaTime;
         meshRenderer.material.mainTextureOffset = offset;
 
-        // Seguir la camara con offset
+        // Seguir la camara solo en X, Y fijo (las nubes no se mueven al saltar)
         transform.position = new Vector3(
             camaraJuego.transform.position.x + offsetCamara.x,
-            camaraJuego.transform.position.y + offsetCamara.y,
+            transform.position.y,
             transform.position.z
         );
     }

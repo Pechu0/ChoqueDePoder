@@ -39,9 +39,10 @@ public class ParallaxNivel1 : MonoBehaviour
 
     void SeguirCamara()
     {
+        // Seguir la camara solo en X, Y fijo (evita lag al saltar)
         transform.position = new Vector3(
             camaraJuego.transform.position.x + offsetCamara.x,
-            camaraJuego.transform.position.y + offsetCamara.y,
+            transform.position.y,
             transform.position.z
         );
     }
