@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51555dd616ba3cb4688c284146c4ad3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadGiro: 500
+  velocidadRotacion: 200
 --- !u!1 &751147030
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51555dd616ba3cb4688c284146c4ad3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadGiro: 500
+  velocidadRotacion: 200
 --- !u!58 &751147033
 CircleCollider2D:
   m_ObjectHideFlags: 0

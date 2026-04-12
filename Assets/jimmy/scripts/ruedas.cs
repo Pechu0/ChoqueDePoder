@@ -1,34 +1,27 @@
 using UnityEngine;
 
-public sealed class GirarRuedas : MonoBehaviour
+public class GiroObjeto2D : MonoBehaviour
 {
-    [Header("Configuración")]
-    public float velocidadGiro = 500f; // Ajusta qué tan rápido giran visualmente
-    
-    private float lastXPosition;
+    public float velocidadRotacion = 200f; // Velocidad de giro
+
+    private float ultimaPosicionX;
 
     void Start()
     {
-        lastXPosition = transform.parent.position.x; // Usamos la posición del padre (la Moto)
+        ultimaPosicionX = transform.position.x;
     }
 
     void Update()
     {
-        // Obtenemos la posición actual del objeto padre (la Moto)
-        float currentX = transform.parent.position.x;
-        float diferencia = currentX - lastXPosition;
+        float posicionActualX = transform.position.x;
 
-        // Si hay movimiento, aplicamos la rotación
-        if (Mathf.Abs(diferencia) > 0.001f)
+        // Si X cambia (aumenta o disminuye), gira siempre hacia la derecha
+        if (posicionActualX != ultimaPosicionX)
         {
-            // Si diferencia > 0 (derecha), rotación negativa (sentido horario)
-            // Si diferencia < 0 (izquierda), rotación positiva (sentido antihorario)
-            float direccion = (diferencia > 0) ? -1f : 1f;
-            
-            // Aplicamos la rotación en el eje Z
-            transform.Rotate(0, 0, direccion * velocidadGiro * Time.deltaTime);
+            transform.Rotate(0, 0, -velocidadRotacion * Time.deltaTime);
         }
 
-        lastXPosition = currentX;
+        // Guardar posición actual
+        ultimaPosicionX = posicionActualX;
     }
 }
