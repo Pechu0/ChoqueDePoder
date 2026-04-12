@@ -7,7 +7,10 @@ public class Bomba : MonoBehaviour
 
     [Header("Caida")]
     [SerializeField] private float velocidadCaida = 5f;
-    [SerializeField] private bool usarGravedadRigidbody = false;
+
+    [Header("Deteccion de suelo")]
+    [SerializeField] private LayerMask capaSuelo;
+    [SerializeField] private float distanciaDeteccion = 0.3f;
 
     [Header("Explosion")]
     [SerializeField] private GameObject prefabExplosion;
@@ -18,14 +21,30 @@ public class Bomba : MonoBehaviour
     {
         if (explotada) return;
 
-        if (!usarGravedadRigidbody)
-            transform.position += Vector3.down * velocidadCaida * Time.deltaTime;
+        transform.position += Vector3.down * velocidadCaida * Time.deltaTime;
+
+        // Raycast hacia abajo para detectar el suelo
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, distanciaDeteccion, capaSuelo);
+        if (hit.collider != null)
+        {
+            Explotar();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D otro)
     {
         if (explotada) return;
+        Verificar(otro);
+    }
 
+    void OnTriggerStay2D(Collider2D otro)
+    {
+        if (explotada) return;
+        Verificar(otro);
+    }
+
+    void Verificar(Collider2D otro)
+    {
         if (otro.CompareTag("Player"))
         {
             VidaJugador vida = otro.GetComponent<VidaJugador>();
@@ -38,20 +57,6 @@ public class Bomba : MonoBehaviour
         {
             Explotar();
         }
-    }
-
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (explotada) return;
-
-        if (col.gameObject.CompareTag("Player"))
-        {
-            VidaJugador vida = col.gameObject.GetComponent<VidaJugador>();
-            if (vida != null)
-                vida.RecibirDanio(danio);
-        }
-
-        Explotar();
     }
 
     void Explotar()

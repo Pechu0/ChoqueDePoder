@@ -157,5 +157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   danio: 25
   velocidadCaida: 300
-  usarGravedadRigidbody: 0
-  prefabExplosion: {fileID: 0}
+  capaSuelo:
+    serializedVersion: 2
+    m_Bits: 8
+  distanciaDeteccion: 30
+  prefabExplosion: {fileID: 6732396418170953098, guid: 84c511f8812e83f41bfc2f7710aa1701, type: 3}

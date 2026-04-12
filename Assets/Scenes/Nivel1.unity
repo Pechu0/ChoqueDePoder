@@ -760,7 +760,8 @@ Transform:
   m_LocalPosition: {x: -164, y: 400, z: 0}
   m_LocalScale: {x: 20, y: 1500, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: [{fileID: 1090616850}]
+  m_Children:
+  - {fileID: 1090616850}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &806796128
@@ -20229,7 +20230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 175494318}
   smoothSpeed: 1000
-  offset: {x: 0, y: 280, z: 0}
+  offset: {x: 0, y: 220, z: 0}
   minX: 490
   maxX: 14700
   minY: 170
@@ -20360,10 +20361,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: [{targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}, insertIndex: 0, addedObject: {fileID: 1975335400}},
-      {targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}, insertIndex: 3, addedObject: {fileID: 903357866}},
-      {targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}, insertIndex: -1, addedObject: {fileID: 893802456}},
-      {targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}, insertIndex: -1, addedObject: {fileID: 1978787194}}]
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1975335400}
+    - targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 903357866}
+    - targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 893802456}
+    - targetCorrespondingSourceObject: {fileID: 517787864369023650, guid: 53899b025a276a545880ae86b79edfc8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978787194}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53899b025a276a545880ae86b79edfc8, type: 3}
 --- !u!1660057539 &9223372036854775807

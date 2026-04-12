@@ -141,7 +141,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.2}
+  m_Offset: {x: 0, y: 0.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -152,7 +152,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 2}
+  m_Size: {x: 4, y: 3}
   m_EdgeRadius: 0
 --- !u!50 &139559380168928812
 Rigidbody2D:
@@ -195,6 +195,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadMin: -400
   velocidadMax: -600
-  golpesParaMorir: 1
-  prefabHuevo: {fileID: 0}
+  prefabHuevo: {fileID: 6027074892243461957, guid: a39508058dc76364ca0ce0439e404451, type: 3}
   distanciaMaxima: 3000

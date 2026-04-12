@@ -7,15 +7,12 @@ public class Aguila : MonoBehaviour
     [SerializeField] private float velocidadMax = 6f;
     private float velocidadActual;
 
-    [Header("Vida")]
-    [SerializeField] private int golpesParaMorir = 1;
-    private int golpesRecibidos = 0;
-
     [Header("Huevo")]
     [SerializeField] private GameObject prefabHuevo;
+    private bool yaSoltoHuevo = false;
 
     [Header("Destruccion")]
-    [SerializeField] private float distanciaMaxima = 30f; // se destruye al alejarse mucho de su origen
+    [SerializeField] private float distanciaMaxima = 30f;
 
     private Vector3 posicionInicial;
     private bool activa = false;
@@ -32,7 +29,6 @@ public class Aguila : MonoBehaviour
 
         transform.position += Vector3.right * velocidadActual * Time.deltaTime;
 
-        // Destruir si se alejo demasiado
         if (Mathf.Abs(transform.position.x - posicionInicial.x) > distanciaMaxima)
             Destroy(gameObject);
     }
@@ -42,9 +38,10 @@ public class Aguila : MonoBehaviour
         activa = true;
     }
 
-    void OnTriggerEnter2D(Collider2D otro)
+    void OnTriggerStay2D(Collider2D otro)
     {
-        // Si colisiona con el player y el player esta golpeando, recibe dano
+        if (yaSoltoHuevo) return;
+
         if (otro.CompareTag("Player"))
         {
             TrompasController player = otro.GetComponent<TrompasController>();
@@ -57,12 +54,10 @@ public class Aguila : MonoBehaviour
 
     public void RecibirGolpe()
     {
-        golpesRecibidos++;
-        if (golpesRecibidos >= golpesParaMorir)
-        {
-            SoltarHuevo();
-            Destroy(gameObject);
-        }
+        if (yaSoltoHuevo) return;
+
+        yaSoltoHuevo = true;
+        SoltarHuevo();
     }
 
     void SoltarHuevo()
