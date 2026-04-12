@@ -28,6 +28,7 @@ public class TrompasController : MonoBehaviour
     private bool estaCorriendo;
     private bool estaGolpeando;
     private int golpeActual = 1;
+    private bool espacioPresionado;
 
     void Start()
     {
@@ -56,6 +57,9 @@ public class TrompasController : MonoBehaviour
 
         enSuelo = Physics2D.OverlapCircle(puntoSuelo.position, radioSuelo, capaSuelo);
 
+        // Leer input de espacio para el salto variable (en Update, no en FixedUpdate)
+        espacioPresionado = Input.GetKey(KeyCode.Space);
+
         if (movimiento > 0.01f)
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         else if (movimiento < -0.01f)
@@ -70,7 +74,10 @@ public class TrompasController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             if (enSuelo || TieneTiempoParaGolpearEnAire())
+            {
                 Golpear();
+                return; // No actualizar parametros del animator este frame (evita que Any State -> Jumping pise al golpe)
+            }
         }
 
         ActualizarAnimaciones();
@@ -90,13 +97,14 @@ public class TrompasController : MonoBehaviour
         }
 
         // Salto variable: mas gravedad al caer, o al soltar espacio en la subida
+        // Multiplicamos por rb.gravityScale para que el efecto sea proporcional a la gravedad configurada
         if (rb.velocity.y < 0f)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (multiplicadorCaida - 1f) * Time.fixedDeltaTime;
+            rb.velocity += Vector2.up * Physics2D.gravity.y * rb.gravityScale * (multiplicadorCaida - 1f) * Time.fixedDeltaTime;
         }
-        else if (rb.velocity.y > 0f && !Input.GetKey(KeyCode.Space))
+        else if (rb.velocity.y > 0f && !espacioPresionado)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (multiplicadorSaltoBajo - 1f) * Time.fixedDeltaTime;
+            rb.velocity += Vector2.up * Physics2D.gravity.y * rb.gravityScale * (multiplicadorSaltoBajo - 1f) * Time.fixedDeltaTime;
         }
     }
 
@@ -119,9 +127,12 @@ public class TrompasController : MonoBehaviour
 
     void ActualizarAnimaciones()
     {
-        anim.SetFloat("Speed", enSuelo ? Mathf.Abs(movimiento) : 0f);
-        anim.SetBool("isRunning", enSuelo && estaCorriendo && Mathf.Abs(movimiento) > 0.01f);
-        anim.SetBool("isGrounded", enSuelo);
+        // Considera "en suelo" para animacion si toca suelo O tiene velocidad vertical casi cero (evita rebote)
+        bool enSueloAnim = enSuelo || Mathf.Abs(rb.velocity.y) < 0.5f;
+
+        anim.SetFloat("Speed", enSueloAnim ? Mathf.Abs(movimiento) : 0f);
+        anim.SetBool("isRunning", enSueloAnim && estaCorriendo && Mathf.Abs(movimiento) > 0.01f);
+        anim.SetBool("isGrounded", enSueloAnim);
     }
 
     void Golpear()
@@ -151,6 +162,8 @@ public class TrompasController : MonoBehaviour
         anim.speed = 1f;
         anim.CrossFade("Idle", 0.1f);
     }
+
+    public bool EstaGolpeando() => estaGolpeando;
 
     void OnDrawGizmosSelected()
     {

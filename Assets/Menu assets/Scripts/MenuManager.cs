@@ -21,8 +21,21 @@ public class MenuManager : MonoBehaviour
     public Slider brightnessSlider;
     public Image brightnessOverlay;
 
+    [Header("Camara")]
+    public Camera camaraMenu;
+    public float tamanoOrtografico = 5f;
+
     void Start()
     {
+        // Asegurar que la camara este en su estado correcto al entrar al menu
+        if (camaraMenu == null)
+            camaraMenu = Camera.main;
+        if (camaraMenu != null)
+        {
+            camaraMenu.orthographic = true;
+            camaraMenu.orthographicSize = tamanoOrtografico;
+        }
+
         // Obtener la Image del botón BotonMute si no está asignada
         if (muteButtonImage == null)
         {
