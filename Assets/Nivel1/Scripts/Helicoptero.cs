@@ -16,6 +16,10 @@ public class Helicoptero : MonoBehaviour
     [Header("Destruccion")]
     [SerializeField] private float distanciaMaxima = 40f;
 
+    [Header("Sonido")]
+    [SerializeField] private AudioClip sonidoAparicion;
+    [SerializeField] [Range(0f, 4f)] private float volumenAparicion = 1f;
+
     private Vector3 posicionInicial;
     private bool activo = false;
     private float timerBomba;
@@ -25,6 +29,8 @@ public class Helicoptero : MonoBehaviour
         velocidadActual = Random.Range(velocidadMin, velocidadMax);
         posicionInicial = transform.position;
         ReiniciarTimer();
+
+        AudioUtil.Reproducir2D(sonidoAparicion, volumenAparicion);
     }
 
     void Update()

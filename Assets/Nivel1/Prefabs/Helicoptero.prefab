@@ -160,6 +160,8 @@ MonoBehaviour:
   intervaloBombasMax: 0.9
   puntoLanzamiento: {fileID: 1022533013327752193}
   distanciaMaxima: 2000
+  sonidoAparicion: {fileID: 8300000, guid: 2498be339e114d841925d3e7707f0100, type: 3}
+  volumenAparicion: 1.2
 --- !u!50 &4242543134704622910
 Rigidbody2D:
   serializedVersion: 4

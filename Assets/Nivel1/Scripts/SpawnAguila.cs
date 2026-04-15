@@ -118,6 +118,10 @@ public class SpawnAguila : MonoBehaviour
         Helicoptero heli = obj.GetComponent<Helicoptero>();
         if (heli != null)
             heli.Activar();
+
+        EnemigoMilitar militar = obj.GetComponent<EnemigoMilitar>();
+        if (militar != null)
+            militar.Activar();
     }
 
     void OnDrawGizmosSelected()

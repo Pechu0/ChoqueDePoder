@@ -162,3 +162,5 @@ MonoBehaviour:
     m_Bits: 8
   distanciaDeteccion: 30
   prefabExplosion: {fileID: 6732396418170953098, guid: 84c511f8812e83f41bfc2f7710aa1701, type: 3}
+  sonidoExplosion: {fileID: 8300000, guid: 44e08ed039ecfaa47a5ec5d21eba21f2, type: 3}
+  volumenExplosion: 4

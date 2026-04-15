@@ -8,53 +8,44 @@ public class BarraVida : MonoBehaviour
     public Image rellenoVida;
     public Image iconoEscudo;
 
-    [Header("Colores")]
-    public Color colorAlto = Color.green;
-    public Color colorMedio = Color.yellow;
-    public Color colorBajo = Color.red;
+    [Header("Colores por nivel de vida")]
+    public Color colorVerde = Color.green;     // nivel 0 (primera barra)
+    public Color colorAmarillo = Color.yellow; // nivel 1 (segunda barra)
+    public Color colorRojo = Color.red;        // nivel 2 (tercera barra)
     public Color colorEscudo = new Color(0.2f, 0.5f, 1f, 1f);
 
     [Header("Jugador")]
     public VidaJugador vidaJugador;
 
     private bool escudoActivo = false;
+    private int nivelVida = 0;
 
     void Start()
     {
         if (vidaJugador == null)
             vidaJugador = FindObjectOfType<VidaJugador>();
 
-        // Suscribirse a los eventos
         vidaJugador.onVidaCambia.AddListener(ActualizarBarra);
+        vidaJugador.onCambioNivelVida.AddListener(ActualizarNivel);
         vidaJugador.onEscudoCambia.AddListener(ActualizarEscudo);
 
-        // Inicializar
+        nivelVida = vidaJugador.nivelVida;
         ActualizarBarra(vidaJugador.vidaActual, vidaJugador.vidaMaxima);
         if (iconoEscudo != null) iconoEscudo.gameObject.SetActive(false);
     }
 
     void ActualizarBarra(float actual, float maximo)
     {
-        if (sliderVida == null) return;
+        if (sliderVida != null)
+            sliderVida.value = actual / maximo;
 
-        sliderVida.value = actual / maximo;
+        AplicarColor();
+    }
 
-        if (rellenoVida == null) return;
-
-        // Si el escudo esta activo, mantener color azul independientemente de la vida
-        if (escudoActivo)
-        {
-            rellenoVida.color = colorEscudo;
-            return;
-        }
-
-        float porcentaje = actual / maximo;
-        if (porcentaje > 0.6f)
-            rellenoVida.color = colorAlto;
-        else if (porcentaje > 0.3f)
-            rellenoVida.color = colorMedio;
-        else
-            rellenoVida.color = colorBajo;
+    void ActualizarNivel(int nivel)
+    {
+        nivelVida = nivel;
+        AplicarColor();
     }
 
     void ActualizarEscudo(bool activo)
@@ -64,7 +55,24 @@ public class BarraVida : MonoBehaviour
         if (iconoEscudo != null)
             iconoEscudo.gameObject.SetActive(activo);
 
-        // Refrescar color de la barra
-        ActualizarBarra(vidaJugador.vidaActual, vidaJugador.vidaMaxima);
+        AplicarColor();
+    }
+
+    void AplicarColor()
+    {
+        if (rellenoVida == null) return;
+
+        if (escudoActivo)
+        {
+            rellenoVida.color = colorEscudo;
+            return;
+        }
+
+        switch (nivelVida)
+        {
+            case 0: rellenoVida.color = colorVerde; break;
+            case 1: rellenoVida.color = colorAmarillo; break;
+            default: rellenoVida.color = colorRojo; break;
+        }
     }
 }
