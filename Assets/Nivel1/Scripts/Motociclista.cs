@@ -16,6 +16,12 @@ public class Motociclista : MonoBehaviour
     [Header("Destruccion")]
     [SerializeField] private float distanciaMaxima = 40f;
 
+    [Header("Sonido")]
+    [SerializeField] private AudioClip sonidoAparicion;
+    [SerializeField] [Range(0f, 4f)] private float volumenAparicion = 1f;
+    [SerializeField] private AudioClip sonidoExplosion;
+    [SerializeField] [Range(0f, 4f)] private float volumenExplosion = 1f;
+
     private Vector3 posicionInicial;
     private bool activo = false;
 
@@ -23,6 +29,8 @@ public class Motociclista : MonoBehaviour
     {
         velocidadActual = Random.Range(velocidadMin, velocidadMax);
         posicionInicial = transform.position;
+
+        AudioUtil.Reproducir2D(sonidoAparicion, volumenAparicion);
     }
 
     void Update()
@@ -61,6 +69,8 @@ public class Motociclista : MonoBehaviour
     {
         if (prefabExplosion != null)
             Instantiate(prefabExplosion, transform.position, Quaternion.identity);
+
+        AudioUtil.Reproducir2D(sonidoExplosion, volumenExplosion);
 
         Destroy(gameObject);
     }

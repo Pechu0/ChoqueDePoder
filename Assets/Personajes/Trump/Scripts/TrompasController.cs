@@ -59,7 +59,7 @@ public class TrompasController : MonoBehaviour
 
         // Leer input de espacio para el salto variable (en Update, no en FixedUpdate)
         espacioPresionado = Input.GetKey(KeyCode.Space);
-
+        
         if (movimiento > 0.01f)
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         else if (movimiento < -0.01f)

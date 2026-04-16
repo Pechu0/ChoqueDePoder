@@ -70,6 +70,13 @@ public class MenuManager : MonoBehaviour
         float briloGuardado = PlayerPrefs.GetFloat("brillo", 1f);
         brightnessSlider.value = briloGuardado;
         CambiarBrillo(briloGuardado); // Aplica el brillo al iniciar
+
+        // Si venimos de completar un nivel, abrir el panel de niveles
+        if (PlayerPrefs.GetInt(NivelCompletado.KeyAbrirNiveles, 0) == 1)
+        {
+            PlayerPrefs.DeleteKey(NivelCompletado.KeyAbrirNiveles);
+            if (levelsPanel != null) levelsPanel.SetActive(true);
+        }
     }
 
     // ===== OPCIONES =====

@@ -7,6 +7,10 @@ public class VidaJugador : MonoBehaviour
     public float vidaMaxima = 100f;
     public float vidaActual = 100f;
 
+    [Header("Niveles de vida (0=verde, 1=amarillo, 2=rojo)")]
+    public int vidasTotales = 3;
+    public int nivelVida = 0;
+
     [Header("Escudo")]
     public float duracionEscudo = 5f;
     private bool escudoActivo = false;
@@ -14,8 +18,15 @@ public class VidaJugador : MonoBehaviour
 
     // Eventos para notificar a la UI
     public UnityEvent<float, float> onVidaCambia;   // (vidaActual, vidaMaxima)
+    public UnityEvent<int> onCambioNivelVida;       // (nivelVida)
     public UnityEvent onMuerte;
     public UnityEvent<bool> onEscudoCambia;         // (activo)
+
+    void Start()
+    {
+        onCambioNivelVida?.Invoke(nivelVida);
+        onVidaCambia?.Invoke(vidaActual, vidaMaxima);
+    }
 
     void Update()
     {
@@ -32,16 +43,42 @@ public class VidaJugador : MonoBehaviour
         if (escudoActivo) return;
 
         vidaActual -= cantidad;
-        vidaActual = Mathf.Clamp(vidaActual, 0f, vidaMaxima);
-        onVidaCambia?.Invoke(vidaActual, vidaMaxima);
 
         if (vidaActual <= 0f)
-            onMuerte?.Invoke();
+        {
+            if (nivelVida < vidasTotales - 1)
+            {
+                // Bajar al siguiente nivel (verde -> amarillo -> rojo)
+                nivelVida++;
+                vidaActual = vidaMaxima;
+                onCambioNivelVida?.Invoke(nivelVida);
+                onVidaCambia?.Invoke(vidaActual, vidaMaxima);
+            }
+            else
+            {
+                vidaActual = 0f;
+                onVidaCambia?.Invoke(vidaActual, vidaMaxima);
+                onMuerte?.Invoke();
+            }
+            return;
+        }
+
+        onVidaCambia?.Invoke(vidaActual, vidaMaxima);
     }
 
     public void Curar(float cantidad)
     {
         vidaActual += cantidad;
+
+        // Si rebasa el maximo y no estamos en la barra mas alta, subir de nivel
+        while (vidaActual > vidaMaxima && nivelVida > 0)
+        {
+            float sobrante = vidaActual - vidaMaxima;
+            nivelVida--;
+            vidaActual = sobrante;
+            onCambioNivelVida?.Invoke(nivelVida);
+        }
+
         vidaActual = Mathf.Clamp(vidaActual, 0f, vidaMaxima);
         onVidaCambia?.Invoke(vidaActual, vidaMaxima);
     }

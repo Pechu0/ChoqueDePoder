@@ -15,6 +15,10 @@ public class Bomba : MonoBehaviour
     [Header("Explosion")]
     [SerializeField] private GameObject prefabExplosion;
 
+    [Header("Sonido")]
+    [SerializeField] private AudioClip sonidoExplosion;
+    [SerializeField] [Range(0f, 4f)] private float volumenExplosion = 1f;
+
     private bool explotada = false;
 
     void Update()
@@ -65,6 +69,8 @@ public class Bomba : MonoBehaviour
 
         if (prefabExplosion != null)
             Instantiate(prefabExplosion, transform.position, Quaternion.identity);
+
+        AudioUtil.Reproducir2D(sonidoExplosion, volumenExplosion);
 
         Destroy(gameObject);
     }

@@ -14,6 +14,10 @@ public class Aguila : MonoBehaviour
     [Header("Destruccion")]
     [SerializeField] private float distanciaMaxima = 30f;
 
+    [Header("Sonido")]
+    [SerializeField] private AudioClip sonidoGolpe;
+    [SerializeField] [Range(0f, 4f)] private float volumenGolpe = 1f;
+
     private Vector3 posicionInicial;
     private bool activa = false;
 
@@ -57,6 +61,9 @@ public class Aguila : MonoBehaviour
         if (yaSoltoHuevo) return;
 
         yaSoltoHuevo = true;
+
+        AudioUtil.Reproducir2D(sonidoGolpe, volumenGolpe);
+
         SoltarHuevo();
     }
 

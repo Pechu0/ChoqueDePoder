@@ -126,6 +126,10 @@ MonoBehaviour:
   danio: 20
   prefabExplosion: {fileID: 9207342720491385460, guid: 679077cb8997f1943926821dd550c2aa, type: 3}
   distanciaMaxima: 5000
+  sonidoAparicion: {fileID: 8300000, guid: c835c749a8a8b3c428c9d7285df3a805, type: 3}
+  volumenAparicion: 1
+  sonidoExplosion: {fileID: 8300000, guid: 44e08ed039ecfaa47a5ec5d21eba21f2, type: 3}
+  volumenExplosion: 1
 --- !u!61 &7902679488392884412
 BoxCollider2D:
   m_ObjectHideFlags: 0
