@@ -18613,7 +18613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448347320032425356, guid: 8a2b878df66376843b4e50042b55534a, type: 3}
       propertyPath: oleadas.Array.data[0].offsetXAparicion
-      value: 0
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 448347320032425356, guid: 8a2b878df66376843b4e50042b55534a, type: 3}
       propertyPath: oleadas.Array.data[1].distanciaMaxSuelo
