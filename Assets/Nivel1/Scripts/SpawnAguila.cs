@@ -122,6 +122,10 @@ public class SpawnAguila : MonoBehaviour
         EnemigoMilitar militar = obj.GetComponent<EnemigoMilitar>();
         if (militar != null)
             militar.Activar();
+
+        Jefe jefe = obj.GetComponent<Jefe>();
+        if (jefe != null)
+            jefe.Activar();
     }
 
     void OnDrawGizmosSelected()

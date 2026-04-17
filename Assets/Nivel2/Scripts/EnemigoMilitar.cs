@@ -24,6 +24,8 @@ public class EnemigoMilitar : MonoBehaviour
     [SerializeField] private float cooldownRecibirGolpe = 0.3f;
     [Tooltip("Distancia horizontal maxima a la que el golpe del jugador afecta al enemigo")]
     [SerializeField] private float rangoRecibirGolpe = 1.8f;
+    [Tooltip("Diferencia vertical maxima para recibir golpe (evita matar desde arriba saltando)")]
+    [SerializeField] private float rangoRecibirGolpeVertical = 1.2f;
 
     [Header("Orientacion")]
     [Tooltip("Marcar si el sprite base (escala positiva) mira a la derecha")]
@@ -184,8 +186,10 @@ public class EnemigoMilitar : MonoBehaviour
     {
         if (timerCooldownGolpe > 0f) return;
 
-        float distancia = Mathf.Abs(jugador.position.x - transform.position.x);
-        if (distancia > rangoRecibirGolpe) return;
+        float distanciaX = Mathf.Abs(jugador.position.x - transform.position.x);
+        float distanciaY = Mathf.Abs(jugador.position.y - transform.position.y);
+        if (distanciaX > rangoRecibirGolpe) return;
+        if (distanciaY > rangoRecibirGolpeVertical) return;
 
         TrompasController p = jugador.GetComponent<TrompasController>();
         if (p != null && p.EstaGolpeando())
