@@ -22,6 +22,8 @@ public class NivelCompletado : MonoBehaviour
     {
         if (panelNivelCompletado != null)
             panelNivelCompletado.SetActive(true);
+
+        Time.timeScale = 0f;
     }
 
     // Asigna este metodo al boton "Continuar" del panel
